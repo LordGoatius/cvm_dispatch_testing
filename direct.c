@@ -1,6 +1,5 @@
 #include "direct.h"
 #include "machine.h"
-#include <stdio.h>
 
 void dir_run(machine *machine) {
     instr instr = machine->instrs[0];

@@ -1,0 +1,41 @@
+[
+  {
+    "file": "direct.c",
+    "arguments": [
+      "/usr/bin/clang",
+      "direct.c",
+      "-O3",
+      "-std=c23",
+      "-o",
+      "main"
+    ],
+    "directory": "/home/lordgoatius/projects/c_machine",
+    "output": "main"
+  },
+  {
+    "file": "machine.c",
+    "arguments": [
+      "/usr/bin/clang",
+      "machine.c",
+      "-O3",
+      "-std=c23",
+      "-o",
+      "main"
+    ],
+    "directory": "/home/lordgoatius/projects/c_machine",
+    "output": "main"
+  },
+  {
+    "file": "main.c",
+    "arguments": [
+      "/usr/bin/clang",
+      "main.c",
+      "-O3",
+      "-std=c23",
+      "-o",
+      "main"
+    ],
+    "directory": "/home/lordgoatius/projects/c_machine",
+    "output": "main"
+  }
+]
